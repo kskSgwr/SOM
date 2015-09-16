@@ -61,7 +61,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	
 	int timeMax = 300 ;
 	
-	SOM.learningStart(0.15, 0.5, timeMax) ;
+	SOM.learningStart(0.2, 0.5, timeMax) ;
 
 	for (int i = 0; i<timeMax; i++){
 
