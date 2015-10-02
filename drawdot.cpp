@@ -67,6 +67,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 		SOM.drawAllCell(0, 0, 480, 480);
 
+		//pracVector[0] = 255 ;
 		for (int c=0; c<3; c++)
 			pracVector[c] = rand()%255 ;
 		SOM.learning(pracVector);
